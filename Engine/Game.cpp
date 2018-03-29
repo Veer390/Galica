@@ -1,6 +1,7 @@
 
 #include "MainWindow.h"
 #include "Game.h"
+#include "vector.h"
 
 Game::Game( MainWindow& wnd )
 	:
@@ -19,6 +20,7 @@ void Game::Go()
 
 void Game::UpdateModel()
 {
+	
 }
 
 void Game::ComposeFrame()
