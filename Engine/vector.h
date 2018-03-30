@@ -7,6 +7,16 @@ class vector
 {
 public:
 
+	vector(T x, T y)
+		:
+		x(x),
+		y(y)
+	{}
+
+	vector() = default;
+
+	
+
 	T x;
 	T y;
 
@@ -58,6 +68,6 @@ public:
 
 
 
-	typedef vector<int> vector;
+	typedef vector<int> vectorInt;
 	typedef vector<float> Fvector;
 };

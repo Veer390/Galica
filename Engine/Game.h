@@ -4,6 +4,7 @@
 #include "Keyboard.h"
 #include "Mouse.h"
 #include "Graphics.h"
+#include "Board.h"
 
 class Game
 {
@@ -21,6 +22,7 @@ private:
 private:
 	MainWindow& wnd;
 	Graphics gfx;
+	board Brd;
 	/********************************/
 	/*  User Variables              */
 	/********************************/

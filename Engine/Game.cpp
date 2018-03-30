@@ -3,6 +3,7 @@
 #include "Game.h"
 #include "vector.h"
 
+
 Game::Game( MainWindow& wnd )
 	:
 	wnd( wnd ),
@@ -20,9 +21,10 @@ void Game::Go()
 
 void Game::UpdateModel()
 {
-	
+	Brd.GridToPixelDraw({ 199,199 }, gfx, { 255,255,255 });
 }
 
 void Game::ComposeFrame()
 {
+	
 }
